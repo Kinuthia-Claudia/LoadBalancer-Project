@@ -6,16 +6,16 @@ This repository contains the implementation of a customizable load balancer. The
 
 
 ## Table of Contents
-
-- [Project Structure](#projectstructure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Design Choices](#designchoices)
-- [Testing](#testing)
-- [Performance Analysis](#performanceanalysis)
-- [Contributing](#contributing)
+- [Installation](#Installation)
+   - [Prerequisites](#Prerequisites)
+   - [Steps to Set-Up](#StepstoSet-Up)
+- [Usage](#Usage)
+- [Repository Structure ](#Repository_Structure )
+- [Design Choices](#Design_Choices)
+- [Assumptions](#Assumptions)
+- [Project Testing](#Project_Testing)
 - [License](#license)
-- 
+  
 Features
 
 ## Insallation

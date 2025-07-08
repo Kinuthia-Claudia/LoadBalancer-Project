@@ -1,0 +1,38 @@
+import hashlib
+import bisect
+
+def H(i):
+    return int(hashlib.sha256(str(i).encode()).hexdigest(), 16)
+
+def PHI(i, j):
+    return int(hashlib.sha256(f"{i}-{j}".encode()).hexdigest(), 16)
+
+class ConsistentHashMap:
+    def __init__(self, num_slots=104729, virtual_replicas=200):  # 104729 is a prime number
+        self.num_slots = num_slots
+        self.virtual_replicas = virtual_replicas
+        self.ring = {}
+        self.sorted_slots = []
+
+    def add_server(self, server_id):
+        for j in range(self.virtual_replicas):
+            slot = PHI(server_id, j) % self.num_slots
+            # Allow duplicates for better distribution; optional: skip if desired
+            if slot not in self.ring:
+                self.ring[slot] = server_id
+                bisect.insort(self.sorted_slots, slot)
+
+    def remove_server(self, server_id):
+        to_remove = [slot for slot, sid in self.ring.items() if sid == server_id]
+        for slot in to_remove:
+            self.sorted_slots.remove(slot)
+            del self.ring[slot]
+
+    def get_server_for_request(self, request_id):
+        if not self.sorted_slots:
+            return None
+        req_slot = H(request_id) % self.num_slots
+        idx = bisect.bisect_right(self.sorted_slots, req_slot)
+        if idx == len(self.sorted_slots):
+            idx = 0
+        return self.ring[self.sorted_slots[idx]]

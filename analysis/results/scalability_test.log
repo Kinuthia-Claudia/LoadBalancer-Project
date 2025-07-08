@@ -1,0 +1,354 @@
+2025-07-03 04:43:42,464 - INFO - Current replicas after removal: ['server2', 'server3']
+2025-07-03 04:43:42,467 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-03 04:43:47,502 - INFO - Current replicas after removal: ['server2', 'server3']
+2025-07-03 04:43:47,503 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-03 04:43:52,527 - INFO - Current replicas after removal: ['server2', 'server3']
+2025-07-03 04:43:52,528 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-03 04:43:52,529 - ERROR - Failed to reset servers
+2025-07-03 04:43:52,529 - ERROR - Test failed: Initial reset failed
+2025-07-03 04:45:38,190 - INFO - Current replicas after removal: ['server2', 'server3', 'server1']
+2025-07-03 04:45:38,190 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-03 04:45:38,191 - INFO - 
+=== Testing N=2 servers ===
+2025-07-03 04:45:43,301 - INFO - Successfully scaled to 2 servers
+2025-07-03 04:45:48,592 - INFO - Completed 1000/10000 requests
+2025-07-03 04:45:53,990 - INFO - Completed 2000/10000 requests
+2025-07-03 04:45:58,738 - INFO - Completed 3000/10000 requests
+2025-07-03 04:46:03,578 - INFO - Completed 4000/10000 requests
+2025-07-03 04:46:08,248 - INFO - Completed 5000/10000 requests
+2025-07-03 04:46:12,980 - INFO - Completed 6000/10000 requests
+2025-07-03 04:46:17,946 - INFO - Completed 7000/10000 requests
+2025-07-03 04:46:22,734 - INFO - Completed 8000/10000 requests
+2025-07-03 04:46:27,703 - INFO - Completed 9000/10000 requests
+2025-07-03 04:46:32,979 - INFO - Completed 10000/10000 requests
+2025-07-03 04:46:32,991 - INFO - Results for N=2:
+2025-07-03 04:46:32,992 - INFO - • Successful requests: 10000/10000
+2025-07-03 04:46:32,992 - INFO - • Error rate: 0.0%
+2025-07-03 04:46:32,993 - INFO - • Average load: 5000.0 req/server
+2025-07-03 04:46:32,993 - INFO - • Distribution:
+2025-07-03 04:46:32,993 - INFO -   - 2: 98.3%
+2025-07-03 04:46:32,993 - INFO -   - 3: 1.7%
+2025-07-03 04:46:32,993 - INFO - 
+=== Testing N=3 servers ===
+2025-07-03 04:46:38,088 - INFO - Successfully scaled to 3 servers
+2025-07-03 04:46:49,512 - INFO - Completed 1000/10000 requests
+2025-07-03 04:46:54,464 - INFO - Completed 2000/10000 requests
+2025-07-03 04:47:03,283 - INFO - Completed 3000/10000 requests
+2025-07-03 04:47:10,813 - INFO - Completed 4000/10000 requests
+2025-07-03 04:47:21,046 - INFO - Completed 5000/10000 requests
+2025-07-03 04:47:30,382 - INFO - Completed 6000/10000 requests
+2025-07-03 04:47:40,406 - INFO - Completed 7000/10000 requests
+2025-07-03 04:47:49,057 - INFO - Completed 8000/10000 requests
+2025-07-03 04:47:55,044 - INFO - Completed 9000/10000 requests
+2025-07-03 04:48:11,674 - INFO - Completed 10000/10000 requests
+2025-07-03 04:48:11,894 - INFO - Results for N=3:
+2025-07-03 04:48:11,895 - INFO - • Successful requests: 9812/10000
+2025-07-03 04:48:11,896 - INFO - • Error rate: 1.9%
+2025-07-03 04:48:11,896 - INFO - • Average load: 3270.7 req/server
+2025-07-03 04:48:11,896 - INFO - • Distribution:
+2025-07-03 04:48:11,897 - INFO -   - 2: 98.1%
+2025-07-03 04:48:11,897 - INFO -   - 3: 1.9%
+2025-07-03 04:48:11,897 - INFO - 
+=== Testing N=4 servers ===
+2025-07-03 04:48:17,228 - INFO - Successfully scaled to 4 servers
+2025-07-03 04:48:34,432 - INFO - Completed 1000/10000 requests
+2025-07-03 04:48:51,698 - INFO - Completed 2000/10000 requests
+2025-07-03 04:49:03,195 - INFO - Completed 3000/10000 requests
+2025-07-03 04:49:17,394 - INFO - Completed 4000/10000 requests
+2025-07-03 04:49:35,116 - INFO - Completed 5000/10000 requests
+2025-07-03 04:49:50,220 - INFO - Completed 6000/10000 requests
+2025-07-03 04:50:05,051 - INFO - Completed 7000/10000 requests
+2025-07-03 04:50:21,353 - INFO - Completed 8000/10000 requests
+2025-07-03 04:50:34,167 - INFO - Completed 9000/10000 requests
+2025-07-03 04:50:59,628 - INFO - Completed 10000/10000 requests
+2025-07-03 04:50:59,841 - INFO - Results for N=4:
+2025-07-03 04:50:59,842 - INFO - • Successful requests: 9622/10000
+2025-07-03 04:50:59,852 - INFO - • Error rate: 3.8%
+2025-07-03 04:50:59,855 - INFO - • Average load: 2405.5 req/server
+2025-07-03 04:50:59,855 - INFO - • Distribution:
+2025-07-03 04:50:59,855 - INFO -   - 2: 98.0%
+2025-07-03 04:50:59,855 - INFO -   - 3: 2.0%
+2025-07-03 04:50:59,855 - INFO - 
+=== Testing N=5 servers ===
+2025-07-03 04:51:05,418 - INFO - Successfully scaled to 5 servers
+2025-07-03 04:51:23,756 - INFO - Completed 1000/10000 requests
+2025-07-03 04:51:48,669 - INFO - Completed 2000/10000 requests
+2025-07-03 04:52:05,866 - INFO - Completed 3000/10000 requests
+2025-07-03 04:52:30,386 - INFO - Completed 4000/10000 requests
+2025-07-03 04:52:47,714 - INFO - Completed 5000/10000 requests
+2025-07-03 04:53:08,546 - INFO - Completed 6000/10000 requests
+2025-07-03 04:53:32,601 - INFO - Completed 7000/10000 requests
+2025-07-03 04:53:50,975 - INFO - Completed 8000/10000 requests
+2025-07-03 04:54:07,046 - INFO - Completed 9000/10000 requests
+2025-07-03 04:54:40,161 - INFO - Completed 10000/10000 requests
+2025-07-03 04:54:40,348 - INFO - Results for N=5:
+2025-07-03 04:54:40,349 - INFO - • Successful requests: 9496/10000
+2025-07-03 04:54:40,352 - INFO - • Error rate: 5.0%
+2025-07-03 04:54:40,352 - INFO - • Average load: 1899.2 req/server
+2025-07-03 04:54:40,352 - INFO - • Distribution:
+2025-07-03 04:54:40,353 - INFO -   - 2: 98.1%
+2025-07-03 04:54:40,353 - INFO -   - 3: 1.9%
+2025-07-03 04:54:40,353 - INFO - 
+=== Testing N=6 servers ===
+2025-07-03 04:54:45,759 - INFO - Successfully scaled to 6 servers
+2025-07-03 04:55:12,386 - INFO - Completed 1000/10000 requests
+2025-07-03 04:55:43,793 - INFO - Completed 2000/10000 requests
+2025-07-03 04:56:16,499 - INFO - Completed 3000/10000 requests
+2025-07-03 04:56:42,392 - INFO - Completed 4000/10000 requests
+2025-07-03 04:57:14,223 - INFO - Completed 5000/10000 requests
+2025-07-03 04:57:45,775 - INFO - Completed 6000/10000 requests
+2025-07-03 04:58:18,868 - INFO - Completed 7000/10000 requests
+2025-07-03 04:58:44,536 - INFO - Completed 8000/10000 requests
+2025-07-03 04:59:15,163 - INFO - Completed 9000/10000 requests
+2025-07-03 04:59:50,377 - INFO - Completed 10000/10000 requests
+2025-07-03 04:59:50,553 - INFO - Results for N=6:
+2025-07-03 04:59:50,554 - INFO - • Successful requests: 9268/10000
+2025-07-03 04:59:50,559 - INFO - • Error rate: 7.3%
+2025-07-03 04:59:50,559 - INFO - • Average load: 1544.7 req/server
+2025-07-03 04:59:50,559 - INFO - • Distribution:
+2025-07-03 04:59:50,560 - INFO -   - 2: 97.9%
+2025-07-03 04:59:50,560 - INFO -   - 3: 2.1%
+2025-07-03 04:59:50,577 - INFO - 
+Test complete. Results saved to analysis/results/scalability.txt
+2025-07-03 14:24:47,026 - INFO - Current replicas after removal: ['server1', 'server2', 'server3']
+2025-07-03 14:24:47,030 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-03 14:24:47,030 - INFO - 
+=== Testing N=2 servers ===
+2025-07-03 14:24:52,344 - INFO - Successfully scaled to 2 servers
+2025-07-03 14:24:56,618 - INFO - Completed 1000/10000 requests
+2025-07-03 14:25:01,058 - INFO - Completed 2000/10000 requests
+2025-07-03 14:25:05,022 - INFO - Completed 3000/10000 requests
+2025-07-03 14:25:08,951 - INFO - Completed 4000/10000 requests
+2025-07-03 14:25:13,057 - INFO - Completed 5000/10000 requests
+2025-07-03 14:25:17,331 - INFO - Completed 6000/10000 requests
+2025-07-03 14:25:21,332 - INFO - Completed 7000/10000 requests
+2025-07-03 14:25:25,870 - INFO - Completed 8000/10000 requests
+2025-07-03 14:25:30,481 - INFO - Completed 9000/10000 requests
+2025-07-03 14:25:34,513 - INFO - Completed 10000/10000 requests
+2025-07-03 14:25:34,522 - INFO - Results for N=2:
+2025-07-03 14:25:34,522 - INFO - • Successful requests: 10000/10000
+2025-07-03 14:25:34,524 - INFO - • Error rate: 0.0%
+2025-07-03 14:25:34,524 - INFO - • Average load: 5000.0 req/server
+2025-07-03 14:25:34,524 - INFO - • Distribution:
+2025-07-03 14:25:34,524 - INFO -   - 1: 98.3%
+2025-07-03 14:25:34,525 - INFO -   - 2: 1.7%
+2025-07-03 14:25:34,525 - INFO - 
+=== Testing N=3 servers ===
+2025-07-03 14:25:39,578 - INFO - Successfully scaled to 3 servers
+2025-07-03 14:25:43,819 - INFO - Completed 1000/10000 requests
+2025-07-03 14:25:52,245 - INFO - Completed 2000/10000 requests
+2025-07-03 14:26:01,560 - INFO - Completed 3000/10000 requests
+2025-07-03 14:26:12,517 - INFO - Completed 4000/10000 requests
+2025-07-03 14:26:21,676 - INFO - Completed 5000/10000 requests
+2025-07-03 14:26:28,032 - INFO - Completed 6000/10000 requests
+2025-07-03 14:26:34,036 - INFO - Completed 7000/10000 requests
+2025-07-03 14:26:41,450 - INFO - Completed 8000/10000 requests
+2025-07-03 14:26:47,808 - INFO - Completed 9000/10000 requests
+2025-07-03 14:27:01,230 - INFO - Completed 10000/10000 requests
+2025-07-03 14:27:01,258 - INFO - Results for N=3:
+2025-07-03 14:27:01,258 - INFO - • Successful requests: 9826/10000
+2025-07-03 14:27:01,258 - INFO - • Error rate: 1.7%
+2025-07-03 14:27:01,258 - INFO - • Average load: 3275.3 req/server
+2025-07-03 14:27:01,259 - INFO - • Distribution:
+2025-07-03 14:27:01,259 - INFO -   - 1: 98.2%
+2025-07-03 14:27:01,259 - INFO -   - 2: 1.8%
+2025-07-03 14:27:01,259 - INFO - 
+=== Testing N=4 servers ===
+2025-07-03 14:27:06,327 - INFO - Successfully scaled to 4 servers
+2025-07-03 14:27:15,687 - INFO - Completed 1000/10000 requests
+2025-07-03 14:27:26,770 - INFO - Completed 2000/10000 requests
+2025-07-03 14:27:41,270 - INFO - Completed 3000/10000 requests
+2025-07-03 14:27:57,432 - INFO - Completed 4000/10000 requests
+2025-07-03 14:28:08,770 - INFO - Completed 5000/10000 requests
+2025-07-03 14:28:23,136 - INFO - Completed 6000/10000 requests
+2025-07-03 14:28:33,125 - INFO - Completed 7000/10000 requests
+2025-07-03 14:28:49,945 - INFO - Completed 8000/10000 requests
+2025-07-03 14:29:06,772 - INFO - Completed 9000/10000 requests
+2025-07-03 14:29:29,664 - INFO - Completed 10000/10000 requests
+2025-07-03 14:29:29,687 - INFO - Results for N=4:
+2025-07-03 14:29:29,687 - INFO - • Successful requests: 9669/10000
+2025-07-03 14:29:29,688 - INFO - • Error rate: 3.3%
+2025-07-03 14:29:29,688 - INFO - • Average load: 2417.2 req/server
+2025-07-03 14:29:29,688 - INFO - • Distribution:
+2025-07-03 14:29:29,688 - INFO -   - 1: 98.3%
+2025-07-03 14:29:29,688 - INFO -   - 2: 1.7%
+2025-07-03 14:29:29,688 - INFO - 
+=== Testing N=5 servers ===
+2025-07-03 14:29:34,775 - INFO - Successfully scaled to 5 servers
+2025-07-03 14:29:52,371 - INFO - Completed 1000/10000 requests
+2025-07-03 14:30:16,252 - INFO - Completed 2000/10000 requests
+2025-07-03 14:30:40,477 - INFO - Completed 3000/10000 requests
+2025-07-03 14:31:05,545 - INFO - Completed 4000/10000 requests
+2025-07-03 14:31:30,398 - INFO - Completed 5000/10000 requests
+2025-07-03 14:31:55,405 - INFO - Completed 6000/10000 requests
+2025-07-03 14:32:19,648 - INFO - Completed 7000/10000 requests
+2025-07-03 14:32:36,627 - INFO - Completed 8000/10000 requests
+2025-07-03 14:32:54,343 - INFO - Completed 9000/10000 requests
+2025-07-03 14:33:32,347 - INFO - Completed 10000/10000 requests
+2025-07-03 14:33:32,367 - INFO - Results for N=5:
+2025-07-03 14:33:32,368 - INFO - • Successful requests: 9439/10000
+2025-07-03 14:33:32,369 - INFO - • Error rate: 5.6%
+2025-07-03 14:33:32,369 - INFO - • Average load: 1887.8 req/server
+2025-07-03 14:33:32,369 - INFO - • Distribution:
+2025-07-03 14:33:32,369 - INFO -   - 1: 98.2%
+2025-07-03 14:33:32,370 - INFO -   - 2: 1.8%
+2025-07-03 14:33:32,372 - INFO - 
+=== Testing N=6 servers ===
+2025-07-03 14:33:37,471 - INFO - Successfully scaled to 6 servers
+2025-07-03 14:34:03,120 - INFO - Completed 1000/10000 requests
+2025-07-03 14:34:35,035 - INFO - Completed 2000/10000 requests
+2025-07-03 14:35:01,115 - INFO - Completed 3000/10000 requests
+2025-07-03 14:35:31,670 - INFO - Completed 4000/10000 requests
+2025-07-03 14:35:57,418 - INFO - Completed 5000/10000 requests
+2025-07-03 14:36:22,844 - INFO - Completed 6000/10000 requests
+2025-07-03 14:36:47,694 - INFO - Completed 7000/10000 requests
+2025-07-03 14:37:18,036 - INFO - Completed 8000/10000 requests
+2025-07-03 14:37:43,640 - INFO - Completed 9000/10000 requests
+2025-07-03 14:38:23,468 - INFO - Completed 10000/10000 requests
+2025-07-03 14:38:23,663 - INFO - Results for N=6:
+2025-07-03 14:38:23,663 - INFO - • Successful requests: 9314/10000
+2025-07-03 14:38:23,665 - INFO - • Error rate: 6.9%
+2025-07-03 14:38:23,666 - INFO - • Average load: 1552.3 req/server
+2025-07-03 14:38:23,666 - INFO - • Distribution:
+2025-07-03 14:38:23,666 - INFO -   - 1: 98.2%
+2025-07-03 14:38:23,666 - INFO -   - 2: 1.8%
+2025-07-03 14:38:23,680 - INFO - 
+Test complete. Results saved to analysis/results/scalability.txt
+2025-07-07 20:41:40,645 - INFO - Current replicas after removal: []
+2025-07-07 20:41:40,680 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 20:41:45,701 - INFO - Current replicas after removal: []
+2025-07-07 20:41:45,702 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 20:41:50,717 - INFO - Current replicas after removal: []
+2025-07-07 20:41:50,718 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 20:41:50,719 - ERROR - Failed to reset servers
+2025-07-07 20:41:50,719 - ERROR - Test failed: Initial reset failed
+2025-07-07 21:04:11,085 - INFO - Current replicas after removal: []
+2025-07-07 21:04:11,085 - INFO - Current replicas after removal: []
+2025-07-07 21:04:11,085 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 21:04:11,085 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 21:04:16,104 - INFO - Current replicas after removal: []
+2025-07-07 21:04:16,105 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 21:04:16,105 - INFO - Current replicas after removal: []
+2025-07-07 21:04:16,106 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 21:04:21,125 - INFO - Current replicas after removal: []
+2025-07-07 21:04:21,126 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 21:04:21,126 - ERROR - Failed to reset servers
+2025-07-07 21:04:21,126 - ERROR - Test failed: Initial reset failed
+2025-07-07 21:04:21,126 - INFO - Current replicas after removal: []
+2025-07-07 21:04:21,126 - INFO - Expected core servers: ['server1', 'server2', 'server3']
+2025-07-07 21:04:21,126 - ERROR - Failed to reset servers
+2025-07-07 21:04:21,126 - ERROR - Test failed: Initial reset failed
+2025-07-07 21:10:41,527 - INFO - Current replicas after removal: ['Server1', 'Server2', 'Server3']
+2025-07-07 21:10:41,569 - INFO - Expected core servers: ['Server1', 'Server2', 'Server3']
+2025-07-07 21:10:41,570 - INFO - 
+=== Testing N=2 servers ===
+2025-07-07 21:10:57,060 - INFO - Successfully scaled to 2 servers
+2025-07-07 21:12:13,897 - INFO - Completed 1000/10000 requests
+2025-07-07 21:13:38,208 - INFO - Completed 2000/10000 requests
+2025-07-07 21:15:01,447 - INFO - Completed 3000/10000 requests
+2025-07-07 21:16:22,894 - INFO - Completed 4000/10000 requests
+2025-07-07 21:17:47,653 - INFO - Completed 5000/10000 requests
+2025-07-07 21:19:11,140 - INFO - Completed 6000/10000 requests
+2025-07-07 21:20:42,488 - INFO - Completed 7000/10000 requests
+2025-07-07 21:22:07,040 - INFO - Completed 8000/10000 requests
+2025-07-07 21:23:42,311 - INFO - Completed 9000/10000 requests
+2025-07-07 21:25:08,354 - INFO - Completed 10000/10000 requests
+2025-07-07 21:25:08,755 - INFO - Results for N=2:
+2025-07-07 21:25:08,755 - INFO - • Successful requests: 10000/10000
+2025-07-07 21:25:08,848 - INFO - • Error rate: 0.0%
+2025-07-07 21:25:08,849 - INFO - • Average load: 5000.0 req/server
+2025-07-07 21:25:08,849 - INFO - • Distribution:
+2025-07-07 21:25:08,849 - INFO -   - 2: 49.6%
+2025-07-07 21:25:08,849 - INFO -   - 1: 50.4%
+2025-07-07 21:25:08,849 - INFO - 
+=== Testing N=3 servers ===
+2025-07-07 21:25:18,501 - INFO - Successfully scaled to 3 servers
+2025-07-07 21:26:40,304 - INFO - Completed 1000/10000 requests
+2025-07-07 21:27:56,390 - INFO - Completed 2000/10000 requests
+2025-07-07 21:29:11,328 - INFO - Completed 3000/10000 requests
+2025-07-07 21:30:25,389 - INFO - Completed 4000/10000 requests
+2025-07-07 21:31:39,762 - INFO - Completed 5000/10000 requests
+2025-07-07 21:32:54,539 - INFO - Completed 6000/10000 requests
+2025-07-07 21:34:08,907 - INFO - Completed 7000/10000 requests
+2025-07-07 21:35:23,230 - INFO - Completed 8000/10000 requests
+2025-07-07 21:36:36,926 - INFO - Completed 9000/10000 requests
+2025-07-07 21:37:50,477 - INFO - Completed 10000/10000 requests
+2025-07-07 21:37:50,507 - INFO - Results for N=3:
+2025-07-07 21:37:50,507 - INFO - • Successful requests: 10000/10000
+2025-07-07 21:37:50,508 - INFO - • Error rate: 0.0%
+2025-07-07 21:37:50,508 - INFO - • Average load: 3333.3 req/server
+2025-07-07 21:37:50,508 - INFO - • Distribution:
+2025-07-07 21:37:50,509 - INFO -   - 1: 33.8%
+2025-07-07 21:37:50,509 - INFO -   - 3: 31.3%
+2025-07-07 21:37:50,509 - INFO -   - 2: 34.9%
+2025-07-07 21:37:50,509 - INFO - 
+=== Testing N=4 servers ===
+2025-07-07 21:37:56,680 - INFO - Successfully scaled to 4 servers
+2025-07-07 21:39:13,324 - INFO - Completed 1000/10000 requests
+2025-07-07 21:40:24,792 - INFO - Completed 2000/10000 requests
+2025-07-07 21:41:37,564 - INFO - Completed 3000/10000 requests
+2025-07-07 21:42:48,794 - INFO - Completed 4000/10000 requests
+2025-07-07 21:44:00,709 - INFO - Completed 5000/10000 requests
+2025-07-07 21:45:24,264 - INFO - Completed 6000/10000 requests
+2025-07-07 21:46:42,074 - INFO - Completed 7000/10000 requests
+2025-07-07 21:47:55,494 - INFO - Completed 8000/10000 requests
+2025-07-07 21:49:08,510 - INFO - Completed 9000/10000 requests
+2025-07-07 21:50:21,493 - INFO - Completed 10000/10000 requests
+2025-07-07 21:50:21,711 - INFO - Results for N=4:
+2025-07-07 21:50:21,711 - INFO - • Successful requests: 10000/10000
+2025-07-07 21:50:21,712 - INFO - • Error rate: 0.0%
+2025-07-07 21:50:21,712 - INFO - • Average load: 2500.0 req/server
+2025-07-07 21:50:21,712 - INFO - • Distribution:
+2025-07-07 21:50:21,712 - INFO -   - 2: 26.9%
+2025-07-07 21:50:21,712 - INFO -   - 3: 25.4%
+2025-07-07 21:50:21,737 - INFO -   - 4: 23.6%
+2025-07-07 21:50:21,737 - INFO -   - 1: 24.1%
+2025-07-07 21:50:21,737 - INFO - 
+=== Testing N=5 servers ===
+2025-07-07 21:50:29,030 - INFO - Successfully scaled to 5 servers
+2025-07-07 21:51:42,362 - INFO - Completed 1000/10000 requests
+2025-07-07 21:52:56,640 - INFO - Completed 2000/10000 requests
+2025-07-07 21:54:13,321 - INFO - Completed 3000/10000 requests
+2025-07-07 21:55:24,580 - INFO - Completed 4000/10000 requests
+2025-07-07 21:56:35,563 - INFO - Completed 5000/10000 requests
+2025-07-07 21:57:46,710 - INFO - Completed 6000/10000 requests
+2025-07-07 21:58:59,263 - INFO - Completed 7000/10000 requests
+2025-07-07 22:00:15,376 - INFO - Completed 8000/10000 requests
+2025-07-07 22:01:30,345 - INFO - Completed 9000/10000 requests
+2025-07-07 22:02:41,503 - INFO - Completed 10000/10000 requests
+2025-07-07 22:02:41,732 - INFO - Results for N=5:
+2025-07-07 22:02:41,732 - INFO - • Successful requests: 10000/10000
+2025-07-07 22:02:41,733 - INFO - • Error rate: 0.0%
+2025-07-07 22:02:41,733 - INFO - • Average load: 2000.0 req/server
+2025-07-07 22:02:41,733 - INFO - • Distribution:
+2025-07-07 22:02:41,733 - INFO -   - 5: 19.7%
+2025-07-07 22:02:41,733 - INFO -   - 2: 21.6%
+2025-07-07 22:02:41,733 - INFO -   - 4: 19.4%
+2025-07-07 22:02:41,733 - INFO -   - 3: 20.1%
+2025-07-07 22:02:41,734 - INFO -   - 1: 19.4%
+2025-07-07 22:02:41,734 - INFO - 
+=== Testing N=6 servers ===
+2025-07-07 22:02:48,037 - INFO - Successfully scaled to 6 servers
+2025-07-07 22:04:04,764 - INFO - Completed 1000/10000 requests
+2025-07-07 22:05:16,654 - INFO - Completed 2000/10000 requests
+2025-07-07 22:06:28,138 - INFO - Completed 3000/10000 requests
+2025-07-07 22:07:40,131 - INFO - Completed 4000/10000 requests
+2025-07-07 22:08:53,072 - INFO - Completed 5000/10000 requests
+2025-07-07 22:10:05,154 - INFO - Completed 6000/10000 requests
+2025-07-07 22:11:16,837 - INFO - Completed 7000/10000 requests
+2025-07-07 22:14:57,570 - INFO - Completed 8000/10000 requests
+2025-07-07 22:16:23,183 - INFO - Completed 9000/10000 requests
+2025-07-07 22:18:25,119 - INFO - Completed 10000/10000 requests
+2025-07-07 22:18:30,988 - INFO - Results for N=6:
+2025-07-07 22:18:30,989 - INFO - • Successful requests: 9930/10000
+2025-07-07 22:18:31,042 - INFO - • Error rate: 0.7%
+2025-07-07 22:18:31,042 - INFO - • Average load: 1655.0 req/server
+2025-07-07 22:18:31,042 - INFO - • Distribution:
+2025-07-07 22:18:31,042 - INFO -   - 3: 16.6%
+2025-07-07 22:18:31,042 - INFO -   - 5: 16.4%
+2025-07-07 22:18:31,043 - INFO -   - 2: 17.6%
+2025-07-07 22:18:31,043 - INFO -   - 1: 16.3%
+2025-07-07 22:18:31,043 - INFO -   - 6: 17.2%
+2025-07-07 22:18:31,043 - INFO -   - 4: 16.0%
+2025-07-07 22:18:32,657 - INFO - 
+Test complete. Results saved to analysis/results/scalability.txt

@@ -35,14 +35,14 @@ Virtual Machine -(Optional)
    
 2.  Navigate to the Repository
 
-** Running the System**
+**Running the System**
 
 3.  Build and Start the services
 
-   ** Build the containers**
+   **Build the containers**
          ```bash
         docker-compose build
-   ** Start the services**
+   **Start the services**
         docker-compose up -d
 
 4. Verify the services
@@ -50,15 +50,15 @@ Virtual Machine -(Optional)
    
           docker-compose ps
 
-   **  View logs**
+   **View logs**
          docker-compose logs -f
 
  4.  Test the load balancer
 
-   ** Get list of servers**
+   **Get list of servers**
     curl http://localhost:5000/rep
 
-  **  Send a test request**
+  **Send a test request**
     curl http://localhost:5000/home
 
 ## Running Performance Test 

@@ -99,34 +99,32 @@ To run Python files while the virtual environment is active
   
 
 ## Repository Structure 
-
 ├── .gitignore
 ├── README.md
-├── TASK_1
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   └── server.py
-├── TASK_2
-│   ├── Dockerfile
-│   ├── consistent_hash.py
-│   ├── docker-compose.yml
-│   ├── loadbalancer.py
-│   └── requirements.txt
-├── TASK_3
-│   ├── Dockerfile
-│   ├── app.py
-│   ├── consistent_hash.py
-│   ├── docker-compose.yml
-│   └── requirements.txt
-├── TASK_4
-│   ├── analysis.ipynb
-│   ├── analysis_one.py
-│   ├── analysis_two.py
-│   ├── consistent_hash.py
-│   └── figures
-│       ├── analysis_one.png
-│       └── analysis_two.png
-└── requirements.txt
+├── requirements.txt         
+├── Implementation Documentation.pdf
+├── analysis/
+│   ├── results/
+│   │   ├── load_distribution.png
+│   │   ├── load_distribution.txt
+│   │   ├── scalability.png
+│   │   └── scalability.txt
+│   └── test_scripts/
+│       ├── load_test.py
+│       ├── plot_load.py
+│       ├── plot_scalability.py
+│       └── scalability_test.py
+├── docker-compose.yml
+├── hashmap/
+│   ├── hashing.py
+│   └── test_hashing.py
+├── loadbalancer/
+│   ├── Dockerfile
+│   ├── hashing.py
+│   └── load_balancer.py
+└── server/
+    ├── Dockerfile
+    └── server.py
 
 
 ## Design Choices

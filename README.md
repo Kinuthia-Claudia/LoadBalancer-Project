@@ -42,6 +42,7 @@ Virtual Machine -(Optional)
    **Build the containers**
       ```bash
       docker-compose build
+      
    **Start the services**
         docker-compose up -d
 

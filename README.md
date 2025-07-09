@@ -29,16 +29,19 @@ Git -For version control
 Virtual Machine -(Optional)
 
 ### Steps to Set-Up
+**Running the System**
+
 1. Clone the Repository
    ```bash
-   ( lisa git hub )
+    https://github.com/Kinuthia-Claudia/LoadBalancer-Project
    
 2.  Navigate to the Repository
 
-**Running the System**
+        cd Load-Balancer-Distributed-System
 
+
+ 
 3.  Build and Start the services
-
    **Build the containers**
       ```bash
       

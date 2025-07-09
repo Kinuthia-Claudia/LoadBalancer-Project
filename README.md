@@ -41,9 +41,11 @@ Virtual Machine -(Optional)
 
    **Build the containers**
       ```bash
+      
       docker-compose build
       
    **Start the services**
+   
         docker-compose up -d
 
 4. Verify the services
@@ -52,11 +54,13 @@ Virtual Machine -(Optional)
           docker-compose ps
 
    **View logs**
+   
          docker-compose logs -f
 
  4.  Test the load balancer
 
    **Get list of servers**
+   
     curl http://localhost:5000/rep
 
   **Send a test request**
@@ -101,31 +105,56 @@ To run Python files while the virtual environment is active
 
 ## Repository Structure 
 ├── .gitignore
+
 ├── README.md
-├── requirements.txt         
+
+├── requirements.txt    
+
 ├── Implementation Documentation.pdf
+
 ├── analysis/
+
 │   ├── results/
+
 │   │   ├── load_distribution.png
+
 │   │   ├── load_distribution.txt
+
 │   │   ├── scalability.png
+
 │   │   └── scalability.txt
+
 │   └── test_scripts/
+
 │       ├── load_test.py
+
 │       ├── plot_load.py
+
 │       ├── plot_scalability.py
+
 │       └── scalability_test.py
+
 ├── docker-compose.yml
+
 ├── hashmap/
+
 │   ├── hashing.py
+
 │   └── test_hashing.py
+
 ├── loadbalancer/
+
 │   ├── Dockerfile
+
 │   ├── hashing.py
+
 │   └── load_balancer.py
+
 └── server/
-    ├── Dockerfile
-    └── server.py
+
+ ├── Dockerfile
+    
+ └── server.py
 
 
 ## Design Choices
